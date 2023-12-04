@@ -15,6 +15,7 @@
 		11AE745E2B1D83AC005B62A5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE745D2B1D83AC005B62A5 /* AccountView.swift */; };
 		11AE74602B1D83B7005B62A5 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE745F2B1D83B7005B62A5 /* OrderView.swift */; };
 		11AE74672B1D88D1005B62A5 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74662B1D88D1005B62A5 /* Appetizer.swift */; };
+		11AE746A2B1D8C29005B62A5 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74692B1D8C29005B62A5 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		11AE745D2B1D83AC005B62A5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		11AE745F2B1D83B7005B62A5 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		11AE74662B1D88D1005B62A5 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		11AE74692B1D8C29005B62A5 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		11AE74622B1D8440005B62A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				11AE74682B1D8C1F005B62A5 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +104,14 @@
 				11AE74662B1D88D1005B62A5 /* Appetizer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		11AE74682B1D8C1F005B62A5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				11AE74692B1D8C29005B62A5 /* AppetizerListCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11AE74672B1D88D1005B62A5 /* Appetizer.swift in Sources */,
+				11AE746A2B1D8C29005B62A5 /* AppetizerListCell.swift in Sources */,
 				11AE745E2B1D83AC005B62A5 /* AccountView.swift in Sources */,
 				11AE74502B1D82E5005B62A5 /* AppetizerTabView.swift in Sources */,
 				11AE744E2B1D82E5005B62A5 /* appetizersApp.swift in Sources */,
