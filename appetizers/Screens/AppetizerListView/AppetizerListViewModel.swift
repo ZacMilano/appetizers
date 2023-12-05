@@ -9,17 +9,31 @@ import SwiftUI
 
 final class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
+    @Published var alertItem: AlertItem?
     
     func getAppetizers() {
         NetworkManager.shared.getAppetizers { result in
             // Network calls are on the background thread; this is causing a UI
             // update, so we put it on the main thread
-            DispatchQueue.main.async {
+            DispatchQueue.main.async { [self] in
                 switch result {
                 case .success(let appetizers):
                     self.appetizers = appetizers
                 case .failure(let error):
-                    print(error.localizedDescription)
+                    switch error {
+                        
+                    case .invalidResponse:
+                        alertItem = AlertContext.invalidResponse
+                        
+                    case .invalidURL:
+                        alertItem = AlertContext.invalidURL
+                        
+                    case .invalidData:
+                        alertItem = AlertContext.invalidData
+                        
+                    case .unableToComplete:
+                        alertItem = AlertContext.unableToComplete
+                    }
                 }
             }
         }
