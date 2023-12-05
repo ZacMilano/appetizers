@@ -20,6 +20,7 @@
 		11AE74702B1E0180005B62A5 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE746F2B1E0180005B62A5 /* APError.swift */; };
 		11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74732B1ECB42005B62A5 /* AppetizerListViewModel.swift */; };
 		11AE74762B1ECECF005B62A5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74752B1ECECF005B62A5 /* Alert.swift */; };
+		11AE74782B1ED2AC005B62A5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74772B1ED2AC005B62A5 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		11AE746F2B1E0180005B62A5 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		11AE74732B1ECB42005B62A5 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		11AE74752B1ECECF005B62A5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		11AE74772B1ED2AC005B62A5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				11AE74682B1D8C1F005B62A5 /* Cells */,
+				11AE74772B1ED2AC005B62A5 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				11AE746A2B1D8C29005B62A5 /* AppetizerListCell.swift in Sources */,
 				11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */,
 				11AE745E2B1D83AC005B62A5 /* AccountView.swift in Sources */,
+				11AE74782B1ED2AC005B62A5 /* LoadingView.swift in Sources */,
 				11AE74502B1D82E5005B62A5 /* AppetizerTabView.swift in Sources */,
 				11AE746D2B1E00D7005B62A5 /* NetworkManager.swift in Sources */,
 				11AE744E2B1D82E5005B62A5 /* appetizersApp.swift in Sources */,
