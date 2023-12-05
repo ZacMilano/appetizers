@@ -21,6 +21,7 @@
 		11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74732B1ECB42005B62A5 /* AppetizerListViewModel.swift */; };
 		11AE74762B1ECECF005B62A5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74752B1ECECF005B62A5 /* Alert.swift */; };
 		11AE74782B1ED2AC005B62A5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74772B1ED2AC005B62A5 /* LoadingView.swift */; };
+		11AE747D2B1ED94B005B62A5 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE747C2B1ED94B005B62A5 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		11AE74732B1ECB42005B62A5 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		11AE74752B1ECECF005B62A5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		11AE74772B1ED2AC005B62A5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		11AE747C2B1ED94B005B62A5 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				11AE74682B1D8C1F005B62A5 /* Cells */,
 				11AE74772B1ED2AC005B62A5 /* LoadingView.swift */,
+				11AE747C2B1ED94B005B62A5 /* RemoteImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */,
 				11AE745E2B1D83AC005B62A5 /* AccountView.swift in Sources */,
 				11AE74782B1ED2AC005B62A5 /* LoadingView.swift in Sources */,
+				11AE747D2B1ED94B005B62A5 /* RemoteImage.swift in Sources */,
 				11AE74502B1D82E5005B62A5 /* AppetizerTabView.swift in Sources */,
 				11AE746D2B1E00D7005B62A5 /* NetworkManager.swift in Sources */,
 				11AE744E2B1D82E5005B62A5 /* appetizersApp.swift in Sources */,
