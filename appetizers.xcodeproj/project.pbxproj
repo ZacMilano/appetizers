@@ -18,6 +18,7 @@
 		11AE746A2B1D8C29005B62A5 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74692B1D8C29005B62A5 /* AppetizerListCell.swift */; };
 		11AE746D2B1E00D7005B62A5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE746C2B1E00D7005B62A5 /* NetworkManager.swift */; };
 		11AE74702B1E0180005B62A5 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE746F2B1E0180005B62A5 /* APError.swift */; };
+		11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74732B1ECB42005B62A5 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		11AE74692B1D8C29005B62A5 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		11AE746C2B1E00D7005B62A5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		11AE746F2B1E0180005B62A5 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		11AE74732B1ECB42005B62A5 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +90,9 @@
 		11AE74612B1D843A005B62A5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				11AE74722B1ECB21005B62A5 /* AppetizerListView */,
 				11AE745D2B1D83AC005B62A5 /* AccountView.swift */,
 				11AE745F2B1D83B7005B62A5 /* OrderView.swift */,
-				11AE745B2B1D839A005B62A5 /* AppetizerListView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -126,6 +128,15 @@
 				11AE746F2B1E0180005B62A5 /* APError.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		11AE74722B1ECB21005B62A5 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				11AE745B2B1D839A005B62A5 /* AppetizerListView.swift */,
+				11AE74732B1ECB42005B62A5 /* AppetizerListViewModel.swift */,
+			);
+			path = AppetizerListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				11AE74672B1D88D1005B62A5 /* Appetizer.swift in Sources */,
 				11AE74702B1E0180005B62A5 /* APError.swift in Sources */,
 				11AE746A2B1D8C29005B62A5 /* AppetizerListCell.swift in Sources */,
+				11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */,
 				11AE745E2B1D83AC005B62A5 /* AccountView.swift in Sources */,
 				11AE74502B1D82E5005B62A5 /* AppetizerTabView.swift in Sources */,
 				11AE746D2B1E00D7005B62A5 /* NetworkManager.swift in Sources */,

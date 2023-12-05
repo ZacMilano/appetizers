@@ -1,26 +1,14 @@
 //
-//  AppetizerListView.swift
+//  AppetizerListViewModel.swift
 //  appetizers
 //
-//  Created by Zac Milano on 12/3/23.
+//  Created by Zac Milano on 12/4/23.
 //
 
 import SwiftUI
 
-struct AppetizerListView: View {
-    @State private var appetizers: [Appetizer] = []
-    
-    var body: some View {
-        NavigationView {
-            List(appetizers) { appetizer in
-                AppetizerListCell(appetizer: appetizer)
-            }
-            .navigationTitle("🍗 Appetizers")
-        }
-        .onAppear {
-            getAppetizers()
-        }
-    }
+final class AppetizerListViewModel: ObservableObject {
+    @Published var appetizers: [Appetizer] = []
     
     func getAppetizers() {
         NetworkManager.shared.getAppetizers { result in
@@ -36,8 +24,4 @@ struct AppetizerListView: View {
             }
         }
     }
-}
-
-#Preview {
-    AppetizerListView()
 }
