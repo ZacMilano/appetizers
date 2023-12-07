@@ -17,12 +17,22 @@ final class AccountViewModel: ObservableObject {
         guard isValidForm else { return }
         
         do {
-            // 8:41:42
+            let data = try JSONEncoder().encode(user)
+            userData = data
+            alertItem = AlertContext.userSaveSuccess
+        } catch {
+            alertItem = AlertContext.invalidUserData
         }
     }
     
     func retrieveUser() {
+        guard let userData = userData else { return }
         
+        do {
+            user = try JSONDecoder().decode(User.self, from: userData)
+        } catch {
+            alertItem = AlertContext.invalidUserData
+        }
     }
     
     var isValidForm: Bool {

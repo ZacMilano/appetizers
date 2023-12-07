@@ -37,6 +37,9 @@ struct AccountView: View {
             .toggleStyle(SwitchToggleStyle(tint: .brandPrimary))
             .navigationTitle("⚙️ Account ")
         }
+        .onAppear {
+            viewModel.retrieveUser()
+        }
         .alert(item: $viewModel.alertItem) { alertItem in
             Alert(
                 title: alertItem.title,
