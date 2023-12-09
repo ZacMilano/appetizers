@@ -86,4 +86,5 @@ struct NutritionInfo: View {
         appetizer: MockData.sampleAppetizer,
         isShowingDetailView: .constant(true)
     )
+    .environmentObject(Order())
 }

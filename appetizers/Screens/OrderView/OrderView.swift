@@ -10,10 +10,6 @@ import SwiftUI
 struct OrderView: View {
     @EnvironmentObject var order: Order
     
-    func deleteItems(at offsets: IndexSet) {
-        order.items.remove(atOffsets: offsets)
-    }
-    
     var body: some View {
         NavigationView {
             ZStack {
@@ -22,14 +18,16 @@ struct OrderView: View {
                         ForEach(order.items) { appetizer in
                             AppetizerListCell(appetizer: appetizer)
                         }
-                        .onDelete(perform: deleteItems)
+                        .onDelete(perform: order.delete)
                     }
                     .listStyle(PlainListStyle())
                     
                     Button {
                         print("order placed!")
                     } label: {
-                        AppetizerButton(title: "$39.92 - Place Order")
+                        AppetizerButton(
+                            title: "$\(order.totalPrice, specifier: "%.2f") - Place Order"
+                        )
                     }
                     .padding(.bottom, 20)
                 }
@@ -48,4 +46,5 @@ struct OrderView: View {
 
 #Preview {
     OrderView()
+        .environmentObject(Order())
 }
