@@ -12,6 +12,7 @@
 		115AA2A32B1F6F170031B5B4 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2A22B1F6F170031B5B4 /* AccountViewModel.swift */; };
 		115AA2A62B1F70780031B5B4 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2A52B1F70780031B5B4 /* String+Ext.swift */; };
 		115AA2A82B20AAE60031B5B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2A72B20AAE60031B5B4 /* User.swift */; };
+		115AA2AC2B24E95E0031B5B4 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2AB2B24E95E0031B5B4 /* EmptyState.swift */; };
 		11AE744E2B1D82E5005B62A5 /* appetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE744D2B1D82E5005B62A5 /* appetizersApp.swift */; };
 		11AE74502B1D82E5005B62A5 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE744F2B1D82E5005B62A5 /* AppetizerTabView.swift */; };
 		11AE74522B1D82E7005B62A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AE74512B1D82E7005B62A5 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		115AA2A22B1F6F170031B5B4 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		115AA2A52B1F70780031B5B4 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		115AA2A72B20AAE60031B5B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		115AA2AB2B24E95E0031B5B4 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		11AE744A2B1D82E5005B62A5 /* appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AE744D2B1D82E5005B62A5 /* appetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appetizersApp.swift; sourceTree = "<group>"; };
 		11AE744F2B1D82E5005B62A5 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 				115AA2A52B1F70780031B5B4 /* String+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		115AA2AA2B24E94F0031B5B4 /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				115AA2AB2B24E95E0031B5B4 /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 		11AE74412B1D82E5005B62A5 = {
@@ -135,6 +145,7 @@
 		11AE74622B1D8440005B62A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				115AA2AA2B24E94F0031B5B4 /* Empty States */,
 				115AA29D2B1F6A5B0031B5B4 /* Buttons */,
 				11AE74852B1EE0D0005B62A5 /* Cards */,
 				11AE74842B1EDF01005B62A5 /* Image */,
@@ -326,6 +337,7 @@
 				115AA29F2B1F6A670031B5B4 /* AppetizerButton.swift in Sources */,
 				115AA2A32B1F6F170031B5B4 /* AccountViewModel.swift in Sources */,
 				11AE74602B1D83B7005B62A5 /* OrderView.swift in Sources */,
+				115AA2AC2B24E95E0031B5B4 /* EmptyState.swift in Sources */,
 				115AA2A82B20AAE60031B5B4 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
