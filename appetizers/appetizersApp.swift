@@ -9,28 +9,11 @@ import SwiftUI
 
 @main
 struct appetizersApp: App {
+    var order = Order()
+    
     var body: some Scene {
         WindowGroup {
-            AppetizerTabView()
+            AppetizerTabView().environmentObject(order)
         }
     }
 }
-
-
-/*
-{
-    "request": [
-        {
-            "description": "This perfectly thin cut just melts in your mouth.",
-            "protein": 14,
-            "id": 1,
-            "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg",
-            "calories": 300,
-            "carbs": 0,
-            "price": 8.99,
-            "name": "Asian Flank Steak"
-        }
-    ]
-}
-    """
- */

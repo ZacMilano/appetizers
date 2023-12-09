@@ -13,6 +13,7 @@
 		115AA2A62B1F70780031B5B4 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2A52B1F70780031B5B4 /* String+Ext.swift */; };
 		115AA2A82B20AAE60031B5B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2A72B20AAE60031B5B4 /* User.swift */; };
 		115AA2AC2B24E95E0031B5B4 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2AB2B24E95E0031B5B4 /* EmptyState.swift */; };
+		115AA2AE2B24EBD10031B5B4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA2AD2B24EBD10031B5B4 /* Order.swift */; };
 		11AE744E2B1D82E5005B62A5 /* appetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE744D2B1D82E5005B62A5 /* appetizersApp.swift */; };
 		11AE74502B1D82E5005B62A5 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE744F2B1D82E5005B62A5 /* AppetizerTabView.swift */; };
 		11AE74522B1D82E7005B62A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AE74512B1D82E7005B62A5 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		115AA2A52B1F70780031B5B4 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		115AA2A72B20AAE60031B5B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		115AA2AB2B24E95E0031B5B4 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		115AA2AD2B24EBD10031B5B4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		11AE744A2B1D82E5005B62A5 /* appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AE744D2B1D82E5005B62A5 /* appetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appetizersApp.swift; sourceTree = "<group>"; };
 		11AE744F2B1D82E5005B62A5 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			children = (
 				11AE74662B1D88D1005B62A5 /* Appetizer.swift */,
 				115AA2A72B20AAE60031B5B4 /* User.swift */,
+				115AA2AD2B24EBD10031B5B4 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				11AE746A2B1D8C29005B62A5 /* AppetizerListCell.swift in Sources */,
 				11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */,
 				11AE745E2B1D83AC005B62A5 /* AccountView.swift in Sources */,
+				115AA2AE2B24EBD10031B5B4 /* Order.swift in Sources */,
 				11AE74782B1ED2AC005B62A5 /* LoadingView.swift in Sources */,
 				115AA2A12B1F6B090031B5B4 /* DismissButton.swift in Sources */,
 				11AE747D2B1ED94B005B62A5 /* RemoteImage.swift in Sources */,
