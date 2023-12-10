@@ -28,7 +28,6 @@ struct AppetizerTabView: View {
                     Label("Account", systemImage: "person")
                 }
         }
-        .accentColor(Color(.brandPrimary))
     }
 }
 
