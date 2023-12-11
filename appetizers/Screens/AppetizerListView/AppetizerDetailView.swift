@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-// 9:24:59
 struct AppetizerDetailView: View {
     @EnvironmentObject var order: Order
     
