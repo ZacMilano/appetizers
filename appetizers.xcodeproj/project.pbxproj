@@ -31,6 +31,7 @@
 		11AE74782B1ED2AC005B62A5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74772B1ED2AC005B62A5 /* LoadingView.swift */; };
 		11AE747D2B1ED94B005B62A5 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE747C2B1ED94B005B62A5 /* RemoteImage.swift */; };
 		11AE74872B1EE128005B62A5 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE74862B1EE128005B62A5 /* AppetizerDetailView.swift */; };
+		11D2C9E02B2C87DD00C69B58 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D2C9DF2B2C87DD00C69B58 /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		11AE74772B1ED2AC005B62A5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		11AE747C2B1ED94B005B62A5 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		11AE74862B1EE128005B62A5 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		11D2C9DF2B2C87DD00C69B58 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				115AA2A52B1F70780031B5B4 /* String+Ext.swift */,
+				11D2C9DF2B2C87DD00C69B58 /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				11AE74672B1D88D1005B62A5 /* Appetizer.swift in Sources */,
 				11AE74702B1E0180005B62A5 /* APError.swift in Sources */,
 				11AE746A2B1D8C29005B62A5 /* AppetizerListCell.swift in Sources */,
+				11D2C9E02B2C87DD00C69B58 /* Date+Ext.swift in Sources */,
 				11AE74742B1ECB42005B62A5 /* AppetizerListViewModel.swift in Sources */,
 				11AE745E2B1D83AC005B62A5 /* AccountView.swift in Sources */,
 				115AA2AE2B24EBD10031B5B4 /* Order.swift in Sources */,
